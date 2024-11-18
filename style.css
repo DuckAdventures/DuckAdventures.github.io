@@ -1,0 +1,54 @@
+
+html{
+    background-color:  #748EB0;
+    font-family:Arial,sans-serif;
+    text-align: center;
+    color: #9DBB61;
+}
+
+nav ul{
+    list-style-type: none;
+    float:right;
+}
+nav li{
+    float:right;
+    width: 33%;
+    text-align: center;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+nav{
+    width:100%;
+    margin: 0 auto;
+    position: sticky;
+    top:0px;
+}
+
+nav a{
+    border-bottom:2px solid transparent;
+    display: block;
+    text-decoration: none;
+    color:#9DBB61;
+    padding: 10px 0px;
+}
+nav a:hover{
+    color : wheat;
+    border-bottom: 2px solid wheat;
+
+}
+
+footer{
+    position : absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+/*Couleur vert de Moustique : #9DBB61 -> couleur texte normal
+Couleur bleue de Moustique : #5B7698 -> couleur fond
+Couleur blanc de Moustique : #FDF9DB -> couleur titres
+Qu'est-ce qui rend mieux : les couleurs que j'ai mises ou celles de Moustique ? 
+Parce que perso je trouve les nouvelles mieux, mais c'est pas celles de la cg du jeu quoi*/
