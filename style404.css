@@ -1,6 +1,10 @@
+html{
+    background-image:url("Images/bg404.png");
+    background-size: cover;
+
 h1{
     text-align: center;
-    font-size: larger;
+    font-size: 2000;
 }
 footer{
     position: absolute;
