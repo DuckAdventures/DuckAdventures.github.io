@@ -7,6 +7,14 @@ html{
     color: #FDF9DB;
 }
 
+.indh1{
+    margin-top: 40px;
+}
+
+header{
+    margin-left: 110px;
+}
+
 .menu{
     width: 100%;
     margin: 0px auto 40px auto;
@@ -43,7 +51,7 @@ html{
 }
 
 .menu a:hover{
-    color: #FDF9DB;
+    color: #9DBB61;
     border-bottom: 2px solid #5B7698;
 	background-color: #5B7698;
 }
@@ -92,4 +100,5 @@ footer{
 Couleur bleue de Moustique : #5B7698 -> couleur fond
 Couleur blanc de Moustique : #FDF9DB -> couleur titres
 Qu'est-ce qui rend mieux : les couleurs que j'ai mises ou celles de Moustique ? 
-Parce que perso je trouve les nouvelles mieux, mais c'est pas celles de la cg du jeu quoi*/
+Parce que perso je trouve les nouvelles mieux, mais c'est pas celles de la cg du jeu quoi
+Couleur jaune autour du menu : #B0AF74*/
