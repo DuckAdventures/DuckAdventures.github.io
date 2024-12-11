@@ -16,6 +16,8 @@ h1{
 }
 
 .hogu{
+    position: absolute;
+    left: 200px;
     width: 20%;
     height: auto;
 }
