@@ -7,12 +7,16 @@ html{
     color: #FDF9DB;
 }
 
+.p2h1{
+    margin-bottom:15%;
+}
+
 .indh1{
     margin-top: 40px;
 }
 
 header{
-    margin-left: 110px;
+    margin-left: 15%;
 }
 
 .menu{
@@ -69,7 +73,7 @@ footer{
     text-decoration: none;
     padding: 10px;
     font-family: arial;
-    font-size: 1em;
+    font-size: 2em;
     color: #FDF9DB;
     background-color: #9DBB61;
     border-radius: 24px;
@@ -84,7 +88,7 @@ footer{
     
 .btn:hover {
     padding: 10px;
-    font-size: 1.1em;
+    font-size: 2.2em;
     box-shadow: 1px 1px 4px #777777;
     -webkit-box-shadow: 1px 1px 4px #777777;
     -moz-box-shadow: 1px 1px 4px #777777;
@@ -94,6 +98,70 @@ footer{
     font-family: Arial, sans-serif;
     color: #FDF9DB;
     text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 60px;
+}
+.box {
+    width: 300px; /* Taille standard modifiable */
+    height: 450px; /* Taille standard modifiable */
+    background-color: #FDF9DB; /* Couleur de fond modifiable */
+    border: 2px solid #ccc; /* Bordure modifiable */
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex; /* Active le modèle de boîte flexible */
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
+    text-align: center;
+    transition: transform 0.2s ease; /* Transition pour l'animation au clic */
+}
+.box:active {
+    transform: scale(0.95); /* Réduction temporaire de la boîte au clic */
+}
+.box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Ajuste l'image pour remplir sans déformer */
+    position: absolute; /* Place l'image principale */
+    z-index: 1; /* Place l'image sous le texte */
+}
+.overlay-image {
+    position: absolute;
+    bottom: 0; /* Positionne l'image tout en bas de la boîte */
+    left: 0; /* Aligne l'image à gauche */
+    width: 40%; /* L'image prendra 50% de la largeur de la boîte */
+    height: auto; /* Laisse la hauteur s'ajuster en fonction du ratio d'aspect */
+    object-fit: contain; /* L'image s'ajuste pour ne pas être coupée */
+    z-index: 3; /* Place cette image par-dessus tout */
+    transform: translateX(0); /* Assure que l'image reste alignée à gauche */
+}
+
+.text {
+    position: absolute; /* Superpose le texte au centre */
+    z-index: 2; /* Place le texte au-dessus de l'image principale */
+    background: rgba(0, 0, 0, 0.7); /* Fond semi-transparent pour le texte */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    display: none; /* Masque le texte par défaut */
+    transform: scale(0.8); /* Réduction initiale */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Animation fluide */
+    overflow-wrap: break-word; /* Permet les retours à la ligne pour les longs textes */
+    max-width: 90%; /* Texte limité à 90% de la largeur de la boîte */
+    max-height: 90%; /* Texte limité à 90% de la hauteur de la boîte */
+    overflow: auto; /* Active le défilement si nécessaire */
+    text-align: center;
+}
+.box.active .text {
+    display: block; /* Affiche le texte quand la boîte est active */
+    transform: scale(1); /* Taille normale */
+    opacity: 1; /* Rend le texte visible */
 }
 
 /*Couleur vert de Moustique : #9DBB61 -> couleur texte normal
