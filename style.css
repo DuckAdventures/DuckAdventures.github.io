@@ -2,13 +2,72 @@
 html{
     background-image:url("Images/bg.png");
     background-size: cover;
+    background-repeat: no-repeat;
     font-family:Arial,sans-serif;
     text-align: center;
     color: #FDF9DB;
 }
 
-.p2h1{
-    margin-bottom:15%;
+.index{
+    background-size: contain;
+    background-color: black;
+}
+
+h1{
+    font-size:50px;
+}
+
+.lore_debut{
+    text-align: left;
+    font-size:30px;
+    background-color: black;
+    width:55%; 
+    height: 400px;
+    margin-left:3%;
+}
+
+.lore_suite{
+    text-align: left;
+    font-size: 30px;
+    margin-left:3%;
+}
+
+.btn_lore {
+    text-decoration: none;
+    padding: 10px;
+    font-family: arial;
+    font-size: 1em;
+    color: #FDF9DB;
+    background-color: #9DBB61;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border: 4px solid #FDF9DB;
+    box-shadow: 3px 3px 12px #444444;
+    -webkit-box-shadow: 3px 3px 12px #444444;
+    -moz-box-shadow: 3px 3px 12px #444444;
+    }
+    
+    
+.btn_lore:hover {
+    padding: 10px;
+    font-size: 1.1m;
+    box-shadow: 1px 1px 4px #777777;
+    -webkit-box-shadow: 1px 1px 4px #777777;
+    -moz-box-shadow: 1px 1px 4px #777777;
+    }
+
+.alore{
+    font-family: Arial, sans-serif;
+    color: #FDF9DB;
+    text-decoration: none;
+}
+
+.logo_ind{
+    float: right;
+    width:35%;
+    height: auto;
+
 }
 
 .indh1{
@@ -64,12 +123,13 @@ header{
 }
 
 footer{
-    position : absolute;
+    position : relative;
     bottom: 0;
     text-align: center;
 }
 
 .btn {
+    margin-top:10% ;
     text-decoration: none;
     padding: 10px;
     font-family: arial;
