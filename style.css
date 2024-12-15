@@ -10,26 +10,47 @@ html{
 
 .index{
     background-size: contain;
-    background-color: black;
+    background-color:#5B7698;
 }
 
 h1{
     font-size:50px;
 }
 
-.lore_debut{
-    text-align: left;
-    font-size:30px;
-    background-color: black;
-    width:55%; 
-    height: 400px;
+.fond_lore{
+    padding:40px;
+    background-color: #A48268;
+    border-radius:20px;
+    width: 820px; 
+    height: 390px;
     margin-left:3%;
 }
 
-.lore_suite{
+.lore_debut{
+    padding: 10px;
+    background-color: #A48268;
+    box-shadow: inset 1px 0px 10px black;
     text-align: left;
-    font-size: 30px;
+    font-size:30px;
+    width:800px;;
+    height:370px
+}
+
+.fond_lore_suite{
+    padding:40px;
+    background-color: #A48268;
     margin-left:3%;
+    margin-right: 3%;
+    border-radius:20px;    
+}
+
+.lore_suite{
+    padding: 10px;
+    background-color: #A48268;
+    box-shadow: inset 1px 0px 10px black;
+    text-align: left;
+    font-size:30px;
+
 }
 
 .btn_lore {
