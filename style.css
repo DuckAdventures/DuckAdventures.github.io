@@ -54,10 +54,11 @@ h1{
 }
 
 .btn_lore {
+    float:right;
     text-decoration: none;
     padding: 10px;
     font-family: arial;
-    font-size: 1em;
+    font-size: 1.5em;
     color: #FDF9DB;
     background-color: #9DBB61;
     border-radius: 24px;
@@ -72,7 +73,7 @@ h1{
     
 .btn_lore:hover {
     padding: 10px;
-    font-size: 1.1m;
+    font-size: 1.65m;
     box-shadow: 1px 1px 4px #777777;
     -webkit-box-shadow: 1px 1px 4px #777777;
     -moz-box-shadow: 1px 1px 4px #777777;
