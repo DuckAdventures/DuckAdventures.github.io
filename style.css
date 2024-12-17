@@ -54,6 +54,7 @@ h1{
 }
 
 .btn_lore {
+    margin-right:15%;
     float:right;
     text-decoration: none;
     padding: 10px;
