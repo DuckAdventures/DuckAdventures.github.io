@@ -13,6 +13,61 @@ html{
     background-color:#5B7698;
 }
 
+.auCentre{
+    text-align: left;
+}
+
+h3{
+    font-size: 40px;
+    margin-right: 58%;
+}
+
+h3:hover{
+    font-size: 42px;
+    color:#5B7698;
+}
+
+.biblio_around{
+    padding:40px;
+    background-color: #A48268;
+    border-radius:20px;
+}
+
+.biblio{
+    padding: 10px;
+    background-color: #A48268;
+    box-shadow: inset 1px 0px 10px black;
+    text-align: left;
+    font-size:30px;
+}
+
+.interieur{
+    background-color: #5B7698;
+    border-radius: 30px;
+    margin-right: 70%;
+    padding: 10px;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: underline;
+    color: #FDF9DB;
+}
+
+ul{
+    list-style-type: "\1F4CB";
+}
+
+.logo_insta{
+    height: 50px;
+    width: auto;
+}
+
+.logo_insta:hover{
+    height: 55px;
+    width: auto;
+}
+
 h1{
     font-size:50px;
 }
@@ -145,10 +200,24 @@ header{
     font-family:roboto, sans-serif;
 }
 
-footer{
-    position : relative;
+.footer_index{
+    position:sticky;
     bottom: 0;
     text-align: center;
+    background-color:#586535;
+    padding: 2vh 3vw;
+    left:0%;
+    right: 0%;
+}
+
+footer{
+    position:absolute;
+    left:0%;
+    right: 0%;
+    bottom: 0;
+    text-align: center;
+    background-color:#586535;
+    padding: 2vh 3vw;
 }
 
 .btn {

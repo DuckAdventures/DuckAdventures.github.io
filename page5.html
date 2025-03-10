@@ -5,8 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="Images/logo.png">
+        <script src="js/jquery-1.12.4.js"></script>
+        <script src="js/jquery-ui.js"></script>
         <title>
-            Duck Adventures
+            Annexes
         </title>
     </head>
     <body>
@@ -22,15 +24,52 @@
         <h1>
             Annexes
         </h1>
-        <ul>
-            <li>
-                <a href="Duck_Adventures_CdCF.pdf">Cahier des charges fonctionnel</a>
-            <li>
-                <a href="Duck_Adventures_CdCT.pdf">Cahier des charges technique</a>
-            </li>
-        </ul>
+        <div id="auCentre" class="auCentre">
+            <div id="Accordeon">
+                <h3>Avant la première soutenance</h3>
+                <div class="interieur">
+                    <ul class="liste_annexes">
+                        <li>
+                            <a href="Duck_Adventures_CdCT.pdf">Cahier des charges technique</a>
+                        </li>
+                        <li>
+                            <a href="Duck_Adventures_CdCF.pdf">Cahier des charges fonctionnel</a>
+                        </li>
+                    </ul>
+                </div>
+                <h3>Première soutenance</h3>
+                <div class="interieur">
+                    <ul class="liste_annexes">
+                        <li>
+                            <a href="404.html">Rapport de soutenance</a>
+                        </li>
+                        <li>
+                            <a href="404.html">Plan de soutenance</a>
+                        </li>
+                    </ul>
+                </div>
+                <h3>Deuxième soutenance</h3>
+                <div class="interieur">
+                    <ul class="liste_annexes">
+                        <li>
+                            <a href="rapport_soutenance_2.pdf">Rapport de soutenance</a>
+                        </li>
+                        <li>
+                            <a href="Plan_de_soutenance_2.pdf">Plan de soutenance</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <footer>
+            <a href="https://www.instagram.com/duckadventures_/">
+                <img src="Images/logo_insta.png" class="logo_insta">
+            </a>
+            <br>
             Copyright ©Les Canards Sauvages 2024
         </footer>
+    <script type="text/javascript" language="javascript">
+        $("#Accordeon").accordion();
+    </script>
     </body>
 </html>
